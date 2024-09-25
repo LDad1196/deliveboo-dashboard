@@ -1,0 +1,47 @@
+@import '~bootstrap/scss/bootstrap';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.main-logo {
+    height: 8vh;
+}
+
+.container a {
+    padding: 0;
+}
+
+.navbar {
+    font-size: 23px;
+}
+
+.navlink:hover {
+    // font-weight: bold;
+    color: rgb(231, 153, 45);
+}
+
+
+.jumbo {
+    background-color: rgb(231, 153, 45);
+}
+
+.my-fs {
+    font-size: 5rem;
+}
+
+.my-w {
+    width: 3rem;
+}
+
+.nav-link:hover {
+    background-color: #414141;
+}
+
+.nav-link.active {
+    background-color: #5c5c5c; /* Colore di sfondo per il link attivo */
+    color: white; /* Colore del testo per il link attivo */
+}
